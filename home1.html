@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>near swu ong</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="home1.css">
+</head>
+
+<body>
+<button1 class="button1">Enter site</button1>
+<div class="logo">
+  <img src="../taest/kp/Untitled-2.png" width="auto" height="400">
+</div>
+<div class="w3-section" style="max-width:auto">
+  <img class="mySlides w3-animate-fading w3-top" src="95.png" style="width:1150px">
+  <img class="mySlides w3-animate-fading w3-top" src="999999.png" style="width:1150px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000);    
+}
+</script>
+</body>
+</html>

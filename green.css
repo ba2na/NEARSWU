@@ -1,0 +1,98 @@
+@charset "utf-8";
+@charset "utf-8";
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #c29a80;
+	}
+div.head{
+  overflow: hidden;
+  background-color: #433e38;
+  padding: 20px 10px;
+}
+
+div.bar {
+  width: 100%;
+}
+
+.button1 {
+  background-color: #6C3B2C; 
+  border-radius: 30px;
+  color: black;
+  padding: 19px 80px;
+  text-align: center;
+  position: absolute;
+  top: 219px;
+  left: 20%;
+}
+
+.button1:hover {
+  background-color: gray;
+  color: black;
+}
+
+.button2 {
+  background-color: #6C3B2C; 
+  border-radius: 30px;
+  color: black; 
+  padding: 19px 80px;
+  text-align: center;
+  position: absolute;
+  top: 219px;
+  left: 40%; 
+}
+
+.button2:hover {
+  background-color: gray;
+  color: black;
+}
+
+.button3 {
+  background-color: #6C3B2C; 
+  border-radius: 30px;
+  color: black;
+  padding: 19px 80px;
+  text-align: center;
+  position: absolute;
+  top: 219px;
+  left: 60%  
+}
+
+.button3:hover {
+  background-color: gray;
+  color: black;
+}
+div.green {
+  width: auto;
+  height: 400;
+  position: absolute;
+  top: 50%;
+  left: 15%; 
+}
+div.redname {
+  padding: 350px;
+  border: 2px solid gray;
+  margin: 0;
+}
+div.data {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+table, td, th {  
+  border: 0px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+
